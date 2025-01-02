@@ -1,0 +1,117 @@
+body {
+    background-color: gray;
+}
+
+
+/* navbar section here */
+#main-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* <!-- main portfolio section here --> */
+.portfolio-box {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.give .large {
+    float: right;
+}
+.dog i{
+    color: #433e3e;
+    margin-right: 20px;
+}
+
+/* <!-- main portfolio ////// sidebar section here --> */
+.sidebar {
+    /* background-color: #f7f7f7; */
+}
+.go{
+    margin-bottom: 30px;
+    
+}
+.widget-title{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.widgets-container{
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* background-color: #f7f7f7; */
+    padding: 20px;
+}
+.categories-widget ul{
+    list-style-type: none;
+}
+.categories-widget ul a{
+    text-decoration: none;
+    color: gray;
+}
+.post-item{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.post-item h4 a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.tags-widget ul{
+  display: flex;
+  gap: 10px;
+  /* background-color: #b51717; */
+  flex-direction: row;
+  margin-top: 30px;
+}
+.tags-widget li{
+    list-style: none;
+
+}
+.tags-widget li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* footer section here */
+.footer-father {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.footer-top {
+    margin-bottom: 80px;
+}
+
+#footer-blub {
+    /* background-color: #ff0000; */
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer-blub i {
+    background-color: #333;
+    border: gray 1px solid;
+    padding: 8px;
+    color: gray;
+    border-radius: 100%;
+}
+
+#footer-blub i:hover {
+    color: #b51717;
+    border: #b51717 1px solid;
+}
+
+/* media query for Laptop */
+@media only screen and (max-width: 992px) {
+    .Design {
+        margin-top: 80px;
+    }
+
+}
+
+/* media query for tablets */
+@media only screen and (max-width: 768px) {}

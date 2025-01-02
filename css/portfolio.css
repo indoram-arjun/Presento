@@ -1,0 +1,99 @@
+body{
+    background-color: gray;
+}
+
+
+/* navbar section here */
+#main-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* <!-- main portfolio section here --> */
+#carousel-btn{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;   
+}
+#carousel-btn.active{
+   background-color: #b51717;   
+}
+#carousel-btn1{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;   
+}
+#carousel-btn1.active{
+   background-color: #b51717;   
+}
+#carousel-btn2{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;   
+}
+#carousel-btn2.active{
+   background-color: #b51717;   
+}
+#carousel-btn3{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;   
+}
+#carousel-btn3.active{
+   background-color: #b51717;   
+}
+.Serices-List{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(236, 231, 231); */
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.Serices-List h4{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+
+/* footer section here */
+.footer-father {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.footer-top {
+    margin-bottom: 80px;
+}
+
+#footer-blub {
+    /* background-color: #ff0000; */
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer-blub i {
+    background-color: #333;
+    border: gray 1px solid;
+    padding: 8px;
+    color: gray;
+    border-radius: 100%;
+}
+
+#footer-blub i:hover {
+    color: #b51717;
+    border: #b51717 1px solid;
+}
+
+/* media query for Laptop */
+@media only screen and (max-width: 992px) {
+  .Design{
+    margin-top: 80px;
+  }
+
+}
+/* media query for tablets */
+@media only screen and (max-width: 768px) {
+   
+
+}

@@ -1,0 +1,92 @@
+body{
+    background-color: gray;
+}
+
+
+/* navbar section here */
+#main-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* <!-- main service  section here --> */
+.Serices-List{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(236, 231, 231); */
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+.Serices-List h4{
+    border-bottom: 1px solid gray;
+}
+.Serices-List span{
+    padding: 10px;
+    background-color: color-mix(in srgb, #444444, transparent 96%);
+    ;
+    margin-top: 10px;
+}
+.Serices-List span i{
+    margin-right: 10px;
+    color: #a53535;
+    font-size: 20px;
+}
+.Question{
+    background-color: #b51717;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.Question i{
+    font-size: 50px;
+}
+.Question span i{
+    font-size: 15px;
+    margin-right:10px ;
+}
+.Design span i{
+    color:#a53535;
+    margin-right: 10px;
+    border-radius: 100%;
+    border: 0.5px solid #a53535;
+}
+/* footer section here */
+.footer-father {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.footer-top {
+    margin-bottom: 80px;
+}
+
+#footer-blub {
+    /* background-color: #ff0000; */
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer-blub i {
+    background-color: #333;
+    border: gray 1px solid;
+    padding: 8px;
+    color: gray;
+    border-radius: 100%;
+}
+
+#footer-blub i:hover {
+    color: #b51717;
+    border: #b51717 1px solid;
+}
+
+/* media query for Laptop */
+@media only screen and (max-width: 992px) {
+  
+
+}
+/* media query for tablets */
+@media only screen and (max-width: 768px) {
+   
+
+}

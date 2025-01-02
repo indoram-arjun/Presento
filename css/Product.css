@@ -1,0 +1,198 @@
+/* navbar section here */
+#main-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Portfolio section here  */
+.Portfolio-1 {
+    /* background-color: #af1414; */
+    margin-top: 80px;
+}
+.btn-father-king .btn-all a{
+   text-decoration: none;
+   color: black;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Portfolio-1 .btn {
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+    /* Zoom effect on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    transition: transform 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    /* Slight zoom on icons */
+}
+
+.overlay p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.icons .btn {
+    position: absolute;
+    left: 8px;
+    padding: 2px;
+    top: 8px;
+    border-radius: 0;
+}
+
+.icon:hover {
+    color: #b51717;
+}
+
+/* footer section here */
+.footer-father {
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+.footer-top {
+    margin-bottom: 80px;
+}
+
+#footer-blub {
+    /* background-color: #ff0000; */
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer-blub i {
+    background-color: #333;
+    border: gray 1px solid;
+    padding: 8px;
+    color: gray;
+    border-radius: 100%;
+}
+
+#footer-blub i:hover {
+    color: #b51717;
+    border: #b51717 1px solid;
+}
+
+/* media query for Laptop */
+@media only screen and (max-width: 992px) {
+    .about-up {
+        height: 1100px;
+    }
+
+    .about-up-2 {
+        height: 1300px;
+    }
+
+    .Pricing-up-2 {
+        height: 2300px;
+    }
+
+    .team-up-2 {
+        height: 3200px;
+    }
+
+}
+
+/* media query for tablets */
+@media only screen and (max-width: 768px) {
+    .about-up {
+        height: 1100px;
+    }
+    .team-up-2 {
+        height: 3000px;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .about-up {
+        height: 1200px;
+    }
+    
+    .about-up-2 {
+        height: 1500px;
+    }
+    
+    .Pricing-up-2 {
+        height: 2300px;
+    }
+    
+    .team-up-2 {
+        height: 2800px;
+    }
+    .banner-imgs {
+        height: 100vh;
+        padding: 0px;
+        margin: 0;
+    }
+    
+    .banner-imgs h1 {
+        font-size: 25px;
+        padding: 0px;
+    }
+    
+    .banner-imgs p {
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width: 450px) {
+    .team-up-2{
+        height: 2300px;
+    }
+}
